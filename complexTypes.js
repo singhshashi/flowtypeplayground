@@ -42,3 +42,5 @@ printIntroduction(realPerson);
 printIntroduction(pet);
 printIntroduction(alien); //this throws an error because Alien is a class and is nominally different. Flow treats classes as nominal types
 printIntroduction(earthling);
+
+//Read http://flowtype.org/docs/classes.html#_ when going through these examples.
