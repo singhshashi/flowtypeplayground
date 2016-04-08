@@ -1,0 +1,26 @@
+{
+  "name": "flowtypeplayground",
+  "version": "0.0.1",
+  "description": "Getting hands dirty with flowtype",
+  "main": "index.js",
+  "scripts": {
+    "flow": "flow; test $? -eq 0 -o $? -eq 2"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/singhshashi/flowtypeplayground.git"
+  },
+  "keywords": [
+    "flowtype"
+  ],
+  "author": "Shashi Singh",
+  "license": "MIT ",
+  "bugs": {
+    "url": "https://github.com/singhshashi/flowtypeplayground/issues"
+  },
+  "homepage": "https://github.com/singhshashi/flowtypeplayground#readme",
+  "devDependencies": {
+    "babel-plugin-transform-flow-strip-types": "^6.7.0",
+    "flow-bin": "^0.22.1"
+  }
+}
